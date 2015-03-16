@@ -11,9 +11,14 @@ This copy of the NHAIS documentation is hosted on GitHub Pages, and built in Jek
 ### Redirecting URLs
 
 Redirect from /foo to /some-url-or-other by including the following in the header of the some-url-or-other page:
-`---
-`redirect_from: "/foo/"
-`---
+
+```markdown
+---
+redirect_from: "/foo/"
+---
+```
+
+**NB**: the trailing slash on the redirect_from URL is significant
 
 ## Site administration
 
